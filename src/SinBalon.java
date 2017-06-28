@@ -4,25 +4,23 @@
  */
 public class SinBalon {
 
-    List <String> listSinBalon;
-    String [] dep = {"Boxeo","Natacion","Karate","Tiro al arco"};
+    //List <String> listSinBalon;
+    String ListaDep = "Boxeo,Natacion,Karate,Tiro al arco";
 
     public SinBalon() {
 
-        listSinBalon = new ArrayList<String>();
-        for (String depo : dep) {
-
-        }
+        //listSinBalon = new ArrayList<String>();
+        //for (String depo : ListaDep) {  }
     }
 
-    public List<String> getListSinBalon(){
-        return listSinBalon;
+    public String[] getListSinBalon(){
+        return ListaDep;
 
     }
 
     public void agregarDeportesSinBalon (String dep) {
 
-        listSinBalon.add (dep);
+        ListaDep += "," +dep;
 
     }
 }
