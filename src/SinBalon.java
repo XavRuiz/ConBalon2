@@ -13,7 +13,7 @@ public class SinBalon {
         //for (String depo : ListaDep) {  }
     }
 
-    public String[] getListSinBalon(){
+    public String getListSinBalon(){
         return ListaDep;
 
     }
