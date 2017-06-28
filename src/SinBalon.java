@@ -19,10 +19,10 @@ public class SinBalon {
         return listSinBalon;
 
     }
-    
+
     public void agregarDeportesSinBalon (String dep) {
 
-
+        listSinBalon.add (dep);
 
     }
 }
